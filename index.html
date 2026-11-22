@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кав’ярня «Кориця» у Калуші</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" data-i18n="brand_name">Кав’ярня «Кориця»</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1 data-i18n="hero_title">Кав’ярня «Кориця» у Калуші</h1>
+                <p data-i18n="hero_subtitle">Затишний оазис спокою та насолоди в самому серці міста.</p>
+                <div class="hero-btns">
+                    <a href="services.html" class="btn btn-primary" data-i18n="btn_menu">Переглянути меню</a>
+                    <a href="contacts.html" class="btn btn-secondary" data-i18n="btn_contacts">Контакти</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-preview section-padding">
+            <div class="container grid-2">
+                <div class="about-preview-text">
+                    <h2 data-i18n="about_heading">Атмосфера тепла та комфорту</h2>
+                    <p data-i18n="about_excerpt">Розташована в приміщенні центральної пошти на проспекті Лесі Українки, 19. Це ідеальне місце для дружніх зустрічей, ранкових ритуалів з улюбленим еспресо чи лате, або затишних вечорів наодинці з цікавою книгою.</p>
+                    <a href="about.html" class="read-more" data-i18n="read_more">Дізнатися більше &rarr;</a>
+                </div>
+                <div class="about-preview-image">
+                    <img src="images/photo-01.jpg" alt="Кав'ярня Кориця у Калуші інтер'єр" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="features section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title" data-i18n="features_title">Чому обирають «Корицю»</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">☕</div>
+                        <h3 data-i18n="feat_1_title">Авторська та класична кава</h3>
+                        <p data-i18n="feat_1_desc">Широкий асортимент кавових напоїв, приготованих за найкращими рецептами.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🥐</div>
+                        <h3 data-i18n="feat_2_title">Свіжі десерти та випічка</h3>
+                        <p data-i18n="feat_2_desc">Ретельно підібрані інгредієнти для вашого ідеального солодкого перекусу.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3 data-i18n="feat_3_title">Затишна атмосфера</h3>
+                        <p data-i18n="feat_3_desc">Friendly-атмосфера в самому серці Калуша для вашого відпочинку.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section section-padding">
+            <div class="container text-center">
+                <h2 data-i18n="cta_title">Завітайте до нас на чашку ароматної кави</h2>
+                <p data-i18n="cta_hours">Працюємо щодня з 09:00 до 21:00</p>
+                <p class="cta-address">пр. Лесі Українки, 19, Калуш</p>
+                <a href="contacts.html" class="btn btn-primary" data-i18n="btn_visit">Як нас знайти</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3 data-i18n="brand_name">Кав’ярня «Кориця»</h3>
+                <p>пр. Лесі Українки, 19, Калуш</p>
+                <p data-i18n="hours_text">Щодня з 09:00 до 21:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav">Навігація</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts">Контакти</h4>
+                <p>Телефон: <a href="tel:+380997097921">+380 99 709 7921</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Кав’ярня «Кориця». <span data-i18n="all_rights">Всі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
